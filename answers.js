@@ -64,15 +64,53 @@ const dart = ["D'Art" , "Demogorgan Dog", 2, "Upside Down"]
 // Yell at the Ninja Turtles:
 // 1. Create an array with the members of the ninja turtles (Donatello, Leonardo, Raphael, Michaelangelo)
 // 2. Use a for of loop (not a typo - try it out! Try a for of loop) to call toUpperCase() on each of them and print out the result.
-const ninjaTurtles = ["Donatello", "Leonardo", "Raphael", "Michaelangelo"]
-for (let turtle of ninjaTurtles) {
-    console.log(turtle.toUpperCase());
-  }
+// const ninjaTurtles = ["Donatello", "Leonardo", "Raphael", "Michaelangelo"]
+// for (let turtle of ninjaTurtles) {
+//     console.log(turtle.toUpperCase());
+//   }
 ////////////////////////////////
 
 
 ////////////////////////////////
-// Methods, Revisited
+// Methods, Revisited: Here is a list of favMovies:
+const favMovies = ['Jaws', 'The Fellowship of the Ring', 'Howl\'s Moving Castle', 'Django Unchained', 'Cloud Atlas', 'The Usual Suspects', 'Toy Story', 'Conan the Barbarian', 'Titanic', 'Harry Potter', 'Fried Green Tomatoes', 'Volver', 'Oculus', 'Seven', 'Black Panther', 'Harry Potter', 'Imitation of Life', 'Snatch', 'Fast and Furious'];
+// console.log(favMovies.indexOf("Titanic")) //Console log: the index of Titanic
+
+// Do the following and console.log the final results
+
+//1.use the .sort method Thought question: what did this do to the array? Did it permanently alter it?
+//favMovies.sort()
+//console.log(favMovies) // Sorts using ASCII
+// 2. Use the method pop
+//favMovies.pop()
+//console.log(favMovies) // Removes the last element (volver) from end of the array
+//3. push "Guardians of the Galaxy" 
+//favMovies.push("Guardians of the Galaxy")
+//console.log(favMovies) // Adds new element (Guardians of the Galaxy) to the end of the array
+//4. Reverse the array
+//favMovies.reverse()
+//console.log(favMovies) // Reverses the array in place, (the first becomes the last, last becomes first, etc.)
+//5. Use the shift method
+//favMovies.shift()
+//console.log(favMovies) // Removes the specified element (Guardians of the galaxy) from the array (like pop but reversed)
+//6. unshift - what does it return?
+//favMovies.unshift()
+//console.log(favMovies) // Adds the specified element to the array (like push but reversed)
+//7. splice "Django Unchained" and add "Avatar" (try finding the index of "Django Unchained", instead of counting it yourself) Thought question: did this permanently alter our array?
+//favMovies.splice(14, 1, "Avatar")
+//console.log(favMovies) // changes the content of the array by REMOVING OR REPLACING element with a new element in place 
+//8. slice the last half of the array (challenge yourself and try to programatically determine the middle of the array rather than counting it and hard coding it) - Thought question: did this permanently alter our array?
+//9. store the value of your slice in a variable, console.log it - Thought question: what is going on here?
+//10. console.log your final results
+// const middleArrayLength = Math.floor(favMovies.length / 2);  ////Finds The Middle of the array
+// const firstHalfArray = favMovies.slice(0, middleArrayLength);
+// const lasttHalfArray = favMovies.slice(middleArrayLength)
+// console.log(firstHalfArray)
+// console.log(lasttHalfArray)
+// console.log(firstHalfArray.indexOf("Fast and Furious"))
+
+// 11. After running the above tasks, console.log the index of "Fast and Furious" -We removed it from the array, what value do we get when we look for the index of something that is not in the array?
+//We get a value number of -1
 ////////////////////////////////
 
 
