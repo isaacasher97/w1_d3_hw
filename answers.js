@@ -115,7 +115,21 @@ const favMovies = ['Jaws', 'The Fellowship of the Ring', 'Howl\'s Moving Castle'
 
 
 ////////////////////////////////
-// Where is Waldo
+// Where is Waldo: With the following multi-dimensional array
+// 1. Remove Eggbert (hint look at the slice/splice method(s))
+// 2. Change "Neff" to "No One"
+// 3. Access and console.log "Waldo"
+
+// const whereIsWaldo = [["Timmy", "Frank"], "Eggbert",
+//                     ["Lucinda", "Jacc", "Neff", "Snoop"],
+//                     ["Petunia", ["Baked Goods", "Waldo"]]];
+// whereIsWaldo.splice(1, 1)
+// console.log(whereIsWaldo)
+// whereIsWaldo[1].splice(2, 1, "No One")
+// console.log(whereIsWaldo)
+
+// let arr = whereIsWaldo[2][1].splice(1)
+// console.log(`The desired value is ${arr}`)
 ////////////////////////////////
 
 
