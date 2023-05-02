@@ -61,7 +61,13 @@ const dart = ["D'Art" , "Demogorgan Dog", 2, "Upside Down"]
 
 
 ////////////////////////////////
-// Yell at the Ninja Turtles
+// Yell at the Ninja Turtles:
+// 1. Create an array with the members of the ninja turtles (Donatello, Leonardo, Raphael, Michaelangelo)
+// 2. Use a for of loop (not a typo - try it out! Try a for of loop) to call toUpperCase() on each of them and print out the result.
+const ninjaTurtles = ["Donatello", "Leonardo", "Raphael", "Michaelangelo"]
+for (let turtle of ninjaTurtles) {
+    console.log(turtle.toUpperCase());
+  }
 ////////////////////////////////
 
 
