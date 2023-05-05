@@ -134,7 +134,25 @@ const favMovies = ['Jaws', 'The Fellowship of the Ring', 'Howl\'s Moving Castle'
 
 
 ////////////////////////////////
-//  Excited Kitten
+//  Excited Kitten:
+// 1. Write code that logs "Love me, pet me! HSSSSSS!" 20 times.
+// For every even number in your loop, log "...human...why you taking pictures of me?...", "...the catnip made me do it...", or "...why does the red dot always get away..." at random.
+
+for (let i = 1; i <= 20; i++) {
+  if (i % 2 === 0) {
+    const kittyTalk = Math.floor(Math.random() * 3);
+    if (kittyTalk === 0) {
+      console.log("...human...why you taking pictures of me?...");
+    } else if (kittyTalk === 1) {
+      console.log("...the catnip made me do it...");
+    } else {
+      console.log("...why does the red dot always get away...");
+    }
+  } else {
+    console.log("Love me, pet me! HSSSSSS!");
+  }
+}
+
 ////////////////////////////////
 
 
