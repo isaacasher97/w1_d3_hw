@@ -138,20 +138,20 @@ const favMovies = ['Jaws', 'The Fellowship of the Ring', 'Howl\'s Moving Castle'
 // 1. Write code that logs "Love me, pet me! HSSSSSS!" 20 times.
 // For every even number in your loop, log "...human...why you taking pictures of me?...", "...the catnip made me do it...", or "...why does the red dot always get away..." at random.
 
-for (let i = 1; i <= 20; i++) {
-  if (i % 2 === 0) {
-    const kittyTalk = Math.floor(Math.random() * 3);
-    if (kittyTalk === 0) {
-      console.log("...human...why you taking pictures of me?...");
-    } else if (kittyTalk === 1) {
-      console.log("...the catnip made me do it...");
-    } else {
-      console.log("...why does the red dot always get away...");
-    }
-  } else {
-    console.log("Love me, pet me! HSSSSSS!");
-  }
-}
+// for (let i = 1; i <= 20; i++) {
+//   if (i % 2 === 0) {
+//     const kittyTalk = Math.floor(Math.random() * 3);
+//     if (kittyTalk === 0) {
+//       console.log("...human...why you taking pictures of me?...");
+//     } else if (kittyTalk === 1) {
+//       console.log("...the catnip made me do it...");
+//     } else {
+//       console.log("...why does the red dot always get away...");
+//     }
+//   } else {
+//     console.log("Love me, pet me! HSSSSSS!");
+//   }
+// }
 
 ////////////////////////////////
 
@@ -160,4 +160,21 @@ for (let i = 1; i <= 20; i++) {
 //  Find the Median
 ////////////////////////////////
 
+// const nums = [14,11,16,15,13,16,15,17,19,11,12,14,19,11,15,17,11,18,12,17,12,71,18,15,12];
+
+// // First, we sort the array in ascending order
+// nums.sort((a, b) => a - b);
+
+// // Next, we calculate the middle index of the array
+// const middleIndex = Math.floor(nums.length / 2);
+
+// // If the array has an odd number of elements, the median is the middle element
+// if (nums.length % 2 !== 0) {
+//   console.log(nums[middleIndex]);
+// }
+// // If the array has an even number of elements, the median is the average of the two middle elements
+// else {
+//   const median = (nums[middleIndex - 1] + nums[middleIndex]) / 2;
+//   console.log(median);
+// }
 
