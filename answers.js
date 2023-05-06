@@ -160,21 +160,21 @@ const favMovies = ['Jaws', 'The Fellowship of the Ring', 'Howl\'s Moving Castle'
 //  Find the Median
 ////////////////////////////////
 
-// const nums = [14,11,16,15,13,16,15,17,19,11,12,14,19,11,15,17,11,18,12,17,12,71,18,15,12];
+const nums = [14,11,16,15,13,16,15,17,19,11,12,14,19,11,15,17,11,18,12,17,12,71,18,15,12];
 
-// // First, we sort the array in ascending order
-// nums.sort((a, b) => a - b);
+// First, we sort the array in ascending order
+nums.sort((a, b) => a - b);
 
-// // Next, we calculate the middle index of the array
-// const middleIndex = Math.floor(nums.length / 2);
+// Next, we calculate the middle index of the array
+const middleIndex = Math.floor(nums.length / 2);
 
-// // If the array has an odd number of elements, the median is the middle element
-// if (nums.length % 2 !== 0) {
-//   console.log(nums[middleIndex]);
-// }
-// // If the array has an even number of elements, the median is the average of the two middle elements
-// else {
-//   const median = (nums[middleIndex - 1] + nums[middleIndex]) / 2;
-//   console.log(median);
-// }
+// If the array has an odd number of elements, the median is the middle element
+if (nums.length % 2 !== 0) {
+  console.log(nums[middleIndex]);
+}
+// If the array has an even number of elements, the median is the average of the two middle elements
+else {
+  const median = (nums[middleIndex - 1] + nums[middleIndex]) / 2;
+  console.log(median);
+}
 
